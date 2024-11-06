@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos de Futebol</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .video-item {
+            width: 320px;
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        iframe {
+            width: 100%;
+            height: 180px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos de Futebol</h1>
+    <div class="catalogo">
+        <div class="video-item">
+            <h2>Vídeo 1: Jogo de Futebol Incrível</h2>
+            <iframe src="https://www.youtube.com/embed/HTZuteKDCa4" allowfullscreen></iframe>
+        </div>
+        <div class="video-item">
+            <h2>Vídeo 2: Melhores Momentos</h2>
+            <iframe src="https://www.youtube.com/embed/eE1NEt7jyA4" allowfullscreen></iframe>
+        </div>
+    </div>
+
+</body>
+</html>
